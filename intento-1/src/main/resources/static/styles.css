@@ -1,0 +1,115 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif; /* Cambié la fuente a Arial para una apariencia más limpia */
+    background-color: #f8f9fa; /* Fondo más claro y suave */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 85%;
+    max-width: 1200px; /* Limita el ancho máximo */
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Styles */
+header {
+    background-color: #007BFF;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border-bottom: 4px solid #0056b3;
+}
+
+header h1 {
+    font-size: 2.5rem; /* Aumenté el tamaño del título */
+    margin: 0;
+}
+
+/* Navigation Styles */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 15px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 25px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    padding: 12px 20px;
+    border-radius: 25px;
+    background-color: #0056b3;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+nav ul li a:hover {
+    background-color: #003f7f;
+    transform: scale(1.1);
+}
+
+/* Artículo Detail Styles */
+.articulo-detail {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+    border-left: 5px solid #007bff;
+}
+
+.articulo-detail h2 {
+    font-size: 2rem;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+.articulo-detail ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.articulo-detail li {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+    color: #555555;
+}
+
+.articulo-detail li strong {
+    color: #333333;
+}
+
+.articulo-detail .delete-button {
+    background-color: #d9534f;
+    color: white;
+    padding: 12px 25px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+}
+
+.articulo-detail .delete-button:hover {
+    background-color: #c9302c;
+}
+
+.articulo-detail .delete-button:active {
+    transform: scale(0.98);
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f1f1f1;
+    margin-top: 30px;
+}
